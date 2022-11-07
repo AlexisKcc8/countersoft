@@ -1,0 +1,51 @@
+.card-counter {
+  background-color: #ffe4c4ea;
+  width: 20%;
+  height: 14rem;
+  margin: 1rem 0.2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  /* overflow: hidden; */
+}
+.card-counter__header {
+  background-color: #0037ffad;
+}
+.card-counter__circle-avatar {
+  background-color: #ffffffdb;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  line-height: 2rem;
+  padding: 0.5rem;
+
+  margin: 0 auto;
+  font-weight: 700;
+}
+.card-counter__body {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-counter__title {
+  font-size: 1.4rem;
+  margin: 0;
+}
+.card-counter__btn-modal {
+  background-color: #3b3bf7aa;
+  color: #f0f8ff;
+  padding: 0.5em;
+  border-radius: 0.4rem;
+  transition: background-color 0.3s ease;
+}
+.card-counter__btn-modal:hover {
+  background-color: #0505ff;
+  color: #f0f8ff;
+  cursor: pointer;
+}
+.card-counter__footer {
+  padding: 0.5em;
+}

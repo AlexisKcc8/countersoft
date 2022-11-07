@@ -1,0 +1,32 @@
+.container-nabvar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(35, 104, 255);
+  color: #ffffff;
+}
+.container-nabvar__title {
+  margin: 0 0 0 2rem;
+}
+/* .container-nabvar__container-list {
+} */
+.container-nabvar__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.container-nabvar__item {
+  margin: 0 2rem 0 0;
+  list-style: none;
+}
+.container-nabvar__link {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+}
+.container-nabvar__link :hover {
+  cursor: pointer;
+}

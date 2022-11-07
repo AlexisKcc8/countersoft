@@ -1,0 +1,186 @@
+{
+  "counters": [
+    {
+      "id": "1",
+      "nombre": "Adolfo",
+      "apellido": "Cauich",
+      "capacidad": "Media"
+    },
+    {
+      "id": "2",
+      "nombre": "Adrian",
+      "apellido": "Mendez",
+      "capacidad": "Alta"
+    },
+    {
+      "id": "3",
+      "nombre": "Alan",
+      "apellido": "Ruiz",
+      "capacidad": "Media"
+    },
+    {
+      "id": "4",
+      "nombre": "Denzel",
+      "apellido": "Huchim",
+      "capacidad": "Media"
+    },
+    {
+      "id": "5",
+      "nombre": "Enrique",
+      "apellido": "Huchim",
+      "capacidad": "Alta"
+    },
+    {
+      "id": "6",
+      "nombre": "Eduardo",
+      "apellido": "Cab",
+      "capacidad": "Alta"
+    },
+    {
+      "id": "7",
+      "nombre": "Victor",
+      "apellido": "Puc",
+      "capacidad": "Alta"
+    },
+    {
+      "id": "8",
+      "nombre": "Victor",
+      "apellido": "Puc",
+      "capacidad": "Alta"
+    },
+    {
+      "id": "9",
+      "nombre": "Victor",
+      "apellido": "Puc",
+      "capacidad": "Alta"
+    },
+    {
+      "id": "10",
+      "nombre": "Victor",
+      "apellido": "Puc",
+      "capacidad": "Baja"
+    },
+    {
+      "id": "11",
+      "nombre": "Victor",
+      "apellido": "Puc",
+      "capacidad": "Alta"
+    },
+    {
+      "id": "12",
+      "nombre": "Alonso",
+      "apellido": "Almeida",
+      "capacidad": "Alta"
+    },
+    {
+      "id": "13",
+      "nombre": "Ricardo",
+      "apellido": "Media",
+      "capacidad": "Alta"
+    },
+    {
+      "id": "14",
+      "nombre": "Angel",
+      "apellido": "Velasco",
+      "capacidad": "Media"
+    },
+    {
+      "id": "15",
+      "nombre": "Rodrigo",
+      "apellido": "Rejon",
+      "capacidad": "Media"
+    },
+    {
+      "id": "16",
+      "nombre": "Angel",
+      "apellido": "Ramirez",
+      "capacidad": "Baja"
+    },
+    {
+      "id": "17",
+      "nombre": "Adrian",
+      "apellido": "Gongora",
+      "capacidad": "Baja"
+    },
+    {
+      "id": "18",
+      "nombre": "Ronny",
+      "apellido": "Ku",
+      "capacidad": "Alta"
+    }
+  ],
+  "assignedLocations": [
+    {
+      "id": "PP.42.C",
+      "location": "PP.42.C",
+      "place": "Becal",
+      "StatusCount": "in counting",
+      "assignedCounter": "Adolfo Cauich",
+      "NumberOfRolls": "148"
+    },
+    {
+      "id": "PP.12.B",
+      "location": "PP.12.B",
+      "place": "Becal",
+      "StatusCount": "in counting",
+      "assignedCounter": "Sebastian Cauich",
+      "NumberOfRolls": "99"
+    },
+    {
+      "id": "MM.32.D",
+      "location": "MM.32.D",
+      "place": "Becal",
+      "StatusCount": "in counting",
+      "assignedCounter": "Adrian Mendez",
+      "NumberOfRolls": "73"
+    },
+    {
+      "id": "OO.17.C",
+      "location": "OO.17.C",
+      "place": "Becal",
+      "StatusCount": "in counting",
+      "assignedCounter": "Victor Puc",
+      "NumberOfRolls": "99"
+    },
+    {
+      "id": "LL.19.C",
+      "location": "LL.19.C",
+      "place": "Becal",
+      "StatusCount": "in counting",
+      "assignedCounter": "Alan Robles",
+      "NumberOfRolls": "99"
+    },
+    {
+      "id": "NN.26.D",
+      "location": "NN.26.D",
+      "place": "Becal",
+      "StatusCount": "in counting",
+      "assignedCounter": "Alan Robles",
+      "NumberOfRolls": "72"
+    },
+    {
+      "id": "II.16.C",
+      "location": "II.16.C",
+      "place": "Becal",
+      "StatusCount": "in counting",
+      "assignedCounter": "Adolfo Cauich",
+      "NumberOfRolls": "45"
+    },
+    {
+      "id": "LL.16.B",
+      "location": "LL.16.B",
+      "place": "Becal",
+      "StatusCount": "in counting",
+      "assignedCounter": "Victor Puc",
+      "NumberOfRolls": "45"
+    },
+    {
+      "id": "HH.22.B",
+      "location": "HH.22.B",
+      "place": "Becal",
+      "StatusCount": "in counting",
+      "assignedCounter": "Denzel Huchim",
+      "NumberOfRolls": "45"
+    }
+  ]
+}

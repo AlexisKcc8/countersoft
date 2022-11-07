@@ -1,0 +1,20 @@
+.App {
+  background-color: rgba(197, 250, 254, 0.557);
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.container-pages {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+main {
+  width: 90%;
+  min-height: 85vh;
+  height: 35rem;
+  max-height: 36rem;
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "nombre": "Adolfo",
+    "apellido": "Cauich",
+    "capacidad": "Media"
+  },
+  {
+    "id": "2",
+    "nombre": "Adrian",
+    "apellido": "Mendez",
+    "capacidad": "Alta"
+  },
+  {
+    "id": "3",
+    "nombre": "Alan",
+    "apellido": "Ruiz",
+    "capacidad": "Media"
+  },
+  {
+    "id": "4",
+    "nombre": "Denzel",
+    "apellido": "Huchim",
+    "capacidad": "Media"
+  },
+  {
+    "id": "5",
+    "nombre": "Enrique",
+    "apellido": "Huchim",
+    "capacidad": "Alta"
+  },
+  {
+    "id": "6",
+    "nombre": "Eduardo",
+    "apellido": "Cab",
+    "capacidad": "Alta"
+  },
+  {
+    "id": "7",
+    "nombre": "Victor",
+    "apellido": "Puc",
+    "capacidad": "Alta"
+  },
+  {
+    "id": "7",
+    "nombre": "Victor",
+    "apellido": "Puc",
+    "capacidad": "Alta"
+  },
+  {
+    "id": "7",
+    "nombre": "Victor",
+    "apellido": "Puc",
+    "capacidad": "Alta"
+  },
+  {
+    "id": "7",
+    "nombre": "Victor",
+    "apellido": "Puc",
+    "capacidad": "Alta"
+  },
+  {
+    "id": "7",
+    "nombre": "Victor",
+    "apellido": "Puc",
+    "capacidad": "Alta"
+  },
+  {
+    "id": "8",
+    "nombre": "Alonso",
+    "apellido": "Almeida",
+    "capacidad": "Alta"
+  },
+  {
+    "id": "9",
+    "nombre": "Ricardo",
+    "apellido": "Media",
+    "capacidad": "Alta"
+  },
+  {
+    "id": "10",
+    "nombre": "Angel",
+    "apellido": "Velasco",
+    "capacidad": "Media"
+  },
+  {
+    "id": "11",
+    "nombre": "Rodrigo",
+    "apellido": "Rejon",
+    "capacidad": "Media"
+  }
+]
