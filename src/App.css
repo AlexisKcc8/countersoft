@@ -4,6 +4,7 @@
   flex-flow: column nowrap;
   min-height: 100vh;
   overflow: hidden;
+  position: relative;
 }
 .container-pages {
   flex-grow: 1;

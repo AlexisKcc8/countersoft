@@ -113,74 +113,83 @@
     {
       "id": "PP.42.C",
       "location": "PP.42.C",
-      "place": "Becal",
+      "warehouse": "Bécal",
       "StatusCount": "in counting",
       "assignedCounter": "Adolfo Cauich",
-      "NumberOfRolls": "148"
+      "NumberOfRolls": "148",
+      "NumberStylesLocation": 4
     },
     {
       "id": "PP.12.B",
       "location": "PP.12.B",
-      "place": "Becal",
+      "warehouse": "Bécal",
       "StatusCount": "in counting",
       "assignedCounter": "Sebastian Cauich",
-      "NumberOfRolls": "99"
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 4
     },
     {
       "id": "MM.32.D",
       "location": "MM.32.D",
-      "place": "Becal",
+      "warehouse": "Bécal",
       "StatusCount": "in counting",
       "assignedCounter": "Adrian Mendez",
-      "NumberOfRolls": "73"
+      "NumberOfRolls": "73",
+      "NumberStylesLocation": 4
     },
     {
       "id": "OO.17.C",
       "location": "OO.17.C",
-      "place": "Becal",
+      "warehouse": "Bécal",
       "StatusCount": "in counting",
       "assignedCounter": "Victor Puc",
-      "NumberOfRolls": "99"
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 6
     },
     {
       "id": "LL.19.C",
       "location": "LL.19.C",
-      "place": "Becal",
+      "warehouse": "Bécal",
       "StatusCount": "in counting",
       "assignedCounter": "Alan Robles",
-      "NumberOfRolls": "99"
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 2
     },
     {
       "id": "NN.26.D",
       "location": "NN.26.D",
-      "place": "Becal",
+      "warehouse": "Bécal",
       "StatusCount": "in counting",
       "assignedCounter": "Alan Robles",
-      "NumberOfRolls": "72"
+      "NumberOfRolls": "72",
+      "NumberStylesLocation": 3
     },
     {
       "id": "II.16.C",
       "location": "II.16.C",
-      "place": "Becal",
+      "warehouse": "Bécal",
       "StatusCount": "in counting",
       "assignedCounter": "Adolfo Cauich",
-      "NumberOfRolls": "45"
+      "NumberOfRolls": "45",
+      "NumberStylesLocation": 2
     },
     {
       "id": "LL.16.B",
       "location": "LL.16.B",
-      "place": "Becal",
+      "warehouse": "Bécal",
       "StatusCount": "in counting",
       "assignedCounter": "Victor Puc",
-      "NumberOfRolls": "45"
+      "NumberOfRolls": "45",
+      "NumberStylesLocation": 5
     },
     {
       "id": "HH.22.B",
       "location": "HH.22.B",
-      "place": "Becal",
+      "warehouse": "Bécal",
       "StatusCount": "in counting",
       "assignedCounter": "Denzel Huchim",
-      "NumberOfRolls": "45"
+      "NumberOfRolls": "45",
+      "NumberStylesLocation": 2
     }
   ]
 }

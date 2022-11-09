@@ -8,6 +8,7 @@ import { GroupEfficiencyPage } from "./pages/GroupEfficiencyPage/GroupEfficiency
 import { DataLoadingPage } from "./pages/DataLoadingPage/DataLoadingPage";
 import { NotFoundPage } from "./pages/NotFoundPage/NotFoundPage";
 import { NavbarMenu } from "./components/NavbarMenu/NavbarMenu";
+import { Modal } from "./components/Modal/Modal";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
           </Routes>
         </main>
       </section>
+      {/* <Modal /> */}
     </section>
   );
 }

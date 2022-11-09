@@ -1,6 +1,4 @@
 .container-tracking-location {
-  background-color: rgb(255, 3, 179);
-  border: 1px solid rgb(255, 255, 255);
   display: flex;
   height: 100%;
 }
@@ -33,12 +31,11 @@
   overflow: auto;
 }
 .container-tracking-location__section-details-location {
-  background-color: rgb(43, 226, 119);
   width: 65%;
 }
 .container-tracking-location__container-details-location {
   height: 100%;
-  background-color: #ffe4c4ea;
+  background-color: #acfdfed3;
   overflow: scroll;
   scroll-behavior: smooth;
 }

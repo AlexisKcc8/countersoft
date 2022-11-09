@@ -3,7 +3,7 @@ const tiempoTranscurrido = Date.now();
 const hoy = new Date(tiempoTranscurrido);
 import "./StyleCounterCard.css";
 export const CounterCard = (props) => {
-  const { counter } = props;
+  const { counter, openModal } = props;
   return (
     <div className="card-counter">
       <div className="card-counter__header">
@@ -17,7 +17,9 @@ export const CounterCard = (props) => {
           {counter.nombre} {counter.apellido}
         </h5>
         <p className="card-counter__text">Capacidad: {counter.capacidad}</p>
-        <button className="card-counter__btn-modal">Asignar Locaciones</button>
+        <button className="card-counter__btn-modal" onClick={openModal}>
+          Asignar Locaciones
+        </button>
       </div>
       <div className="card-counter__footer">{hoy.toLocaleDateString()}</div>
     </div>
