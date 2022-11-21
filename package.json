@@ -7,20 +7,26 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "fake-api": "json-server --watch src/databases/db.json --port 5000"
+    "fake-api": "json-server --watch src/databases/db.json --port 5000",
+    "run-lowDb": "nodemon backend/src/index.js --ignore db.json"
   },
   "dependencies": {
+    "express": "4.18.2",
     "localforage": "1.10.0",
+    "lowdb": "5.0.5",
     "match-sorter": "6.3.1",
+    "morgan": "1.10.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.4.3",
-    "sort-by": "^0.0.2"
+    "sort-by": "^0.0.2",
+    "uuid": "9.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "@vitejs/plugin-react": "^2.2.0",
+    "nodemon": "2.0.20",
     "vite": "^3.2.0"
   }
 }

@@ -114,7 +114,8 @@
       "id": "PP.42.C",
       "location": "PP.42.C",
       "warehouse": "Bécal",
-      "StatusCount": "in counting",
+      "inCounting": false,
+      "textInCounting": "Conteo Finalizado",
       "assignedCounter": "Adolfo Cauich",
       "NumberOfRolls": "148",
       "NumberStylesLocation": 4
@@ -123,7 +124,8 @@
       "id": "PP.12.B",
       "location": "PP.12.B",
       "warehouse": "Bécal",
-      "StatusCount": "in counting",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
       "assignedCounter": "Sebastian Cauich",
       "NumberOfRolls": "99",
       "NumberStylesLocation": 4
@@ -132,7 +134,8 @@
       "id": "MM.32.D",
       "location": "MM.32.D",
       "warehouse": "Bécal",
-      "StatusCount": "in counting",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
       "assignedCounter": "Adrian Mendez",
       "NumberOfRolls": "73",
       "NumberStylesLocation": 4
@@ -141,7 +144,8 @@
       "id": "OO.17.C",
       "location": "OO.17.C",
       "warehouse": "Bécal",
-      "StatusCount": "in counting",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
       "assignedCounter": "Victor Puc",
       "NumberOfRolls": "99",
       "NumberStylesLocation": 6
@@ -150,7 +154,8 @@
       "id": "LL.19.C",
       "location": "LL.19.C",
       "warehouse": "Bécal",
-      "StatusCount": "in counting",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
       "assignedCounter": "Alan Robles",
       "NumberOfRolls": "99",
       "NumberStylesLocation": 2
@@ -159,7 +164,8 @@
       "id": "NN.26.D",
       "location": "NN.26.D",
       "warehouse": "Bécal",
-      "StatusCount": "in counting",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
       "assignedCounter": "Alan Robles",
       "NumberOfRolls": "72",
       "NumberStylesLocation": 3
@@ -168,7 +174,8 @@
       "id": "II.16.C",
       "location": "II.16.C",
       "warehouse": "Bécal",
-      "StatusCount": "in counting",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
       "assignedCounter": "Adolfo Cauich",
       "NumberOfRolls": "45",
       "NumberStylesLocation": 2
@@ -177,7 +184,8 @@
       "id": "LL.16.B",
       "location": "LL.16.B",
       "warehouse": "Bécal",
-      "StatusCount": "in counting",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
       "assignedCounter": "Victor Puc",
       "NumberOfRolls": "45",
       "NumberStylesLocation": 5
@@ -186,7 +194,8 @@
       "id": "HH.22.B",
       "location": "HH.22.B",
       "warehouse": "Bécal",
-      "StatusCount": "in counting",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
       "assignedCounter": "Denzel Huchim",
       "NumberOfRolls": "45",
       "NumberStylesLocation": 2

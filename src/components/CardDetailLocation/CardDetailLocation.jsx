@@ -1,6 +1,8 @@
 import "./styleCardDetailLocation.css";
 export const CardDetailLocation = (props) => {
   const { location } = props;
+  console.log(location);
+
   return (
     <section id={location.id} className="container-detail-location">
       <article className="container-detail-location__header">
@@ -20,8 +22,19 @@ export const CardDetailLocation = (props) => {
         <div className="container-detail-location__body-container-status-location">
           <h2>Estado:</h2>
           <h2 className="container-detail-location__body-status-location">
-            {location.StatusCount}
+            {location.inCounting ? "En Conteo" : "Conteo Finalizado"}
           </h2>
+        </div>
+        <div className="container-detail-location__body-container-btns-options">
+          <button className="container-detail-location__btn-option">
+            Finalizar Conteo
+          </button>
+          <button className="container-detail-location__btn-option">
+            Cambiar Contador
+          </button>
+          <button className="container-detail-location__btn-option">
+            Eliminar Asignación
+          </button>
         </div>
       </article>
       <article className="container-detail-location__footer">

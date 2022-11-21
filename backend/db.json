@@ -1,0 +1,24 @@
+{
+  "assignedLocations": [
+    {
+      "id": "3f23eb26-7956-4ad0-b550-0047802a9756",
+      "location": "LL.19.C",
+      "warehouse": "Bécal",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
+      "assignedCounter": "Alan Robles",
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 2
+    },
+    {
+      "id": "4b8c82ee-151c-4b77-a387-040a3f217f42",
+      "location": "OO.17.C",
+      "warehouse": "Bécal",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
+      "assignedCounter": "Victor Puc",
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 6
+    }
+  ]
+}

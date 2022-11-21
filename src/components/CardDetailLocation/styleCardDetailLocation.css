@@ -40,7 +40,7 @@
 }
 .container-detail-location__body-status-location {
   color: transparent;
-  background-color: #dc143c;
+  background-color: #0cbfeb;
   background-image: repeating-linear-gradient(
     45deg,
     transparent,
@@ -53,7 +53,20 @@
   background-size: 200%;
   margin-left: 0.5em;
 }
-
+.container-detail-location__btn-option {
+  border: none;
+  border-radius: 15px;
+  margin: 0.5em 1em;
+  padding: 1em;
+  background-color: #3b3bf7aa;
+  color: #f0f8ff;
+  font-weight: bold;
+}
+.container-detail-location__btn-option:hover {
+  background-color: #0505ff;
+  color: #f0f8ff;
+  cursor: pointer;
+}
 .container-detail-location__footer {
   background-color: #c8f1fe;
   display: flex;
