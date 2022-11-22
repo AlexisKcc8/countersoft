@@ -1,22 +1,52 @@
 {
   "assignedLocations": [
     {
-      "id": "3f23eb26-7956-4ad0-b550-0047802a9756",
-      "location": "LL.19.C",
-      "warehouse": "Bécal",
-      "inCounting": true,
-      "textInCounting": "En Conteo",
-      "assignedCounter": "Alan Robles",
-      "NumberOfRolls": "99",
-      "NumberStylesLocation": 2
-    },
-    {
-      "id": "4b8c82ee-151c-4b77-a387-040a3f217f42",
-      "location": "OO.17.C",
+      "id": "26ff53ee-b8d5-4094-a3e5-f05c5c9bb7b6",
+      "location": "LL.23.C",
       "warehouse": "Bécal",
       "inCounting": true,
       "textInCounting": "En Conteo",
       "assignedCounter": "Victor Puc",
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 6
+    },
+    {
+      "id": "bc3e075b-6ad4-4151-b8f6-a67633e9be95",
+      "location": "MM.13.C",
+      "warehouse": "Bécal",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
+      "assignedCounter": "Alan Ruiz",
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 6
+    },
+    {
+      "id": "0a04171c-2c9e-4bfb-9e96-839606a3f4c5",
+      "location": "PP.13.D",
+      "warehouse": "Bécal",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
+      "assignedCounter": "Alan Ruiz",
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 6
+    },
+    {
+      "id": "54af5bcf-8299-41d2-a57a-78e70b572be9",
+      "location": "KK.13.D",
+      "warehouse": "Bécal",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
+      "assignedCounter": "Alan Ruiz",
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 6
+    },
+    {
+      "id": "acfdf7e7-9834-46ba-ba82-0df45e75e2ef",
+      "location": "RR.57.D",
+      "warehouse": "Bécal",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
+      "assignedCounter": "Alan Ruiz",
       "NumberOfRolls": "99",
       "NumberStylesLocation": 6
     }

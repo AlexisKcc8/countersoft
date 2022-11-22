@@ -1,8 +1,6 @@
 import "./styleCardDetailLocation.css";
 export const CardDetailLocation = (props) => {
-  const { location } = props;
-  console.log(location);
-
+  const { location, deleteAssigned } = props;
   return (
     <section id={location.id} className="container-detail-location">
       <article className="container-detail-location__header">
@@ -32,7 +30,10 @@ export const CardDetailLocation = (props) => {
           <button className="container-detail-location__btn-option">
             Cambiar Contador
           </button>
-          <button className="container-detail-location__btn-option">
+          <button
+            className="container-detail-location__btn-option"
+            onClick={() => deleteAssigned(location)}
+          >
             Eliminar Asignación
           </button>
         </div>

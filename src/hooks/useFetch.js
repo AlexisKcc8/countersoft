@@ -8,7 +8,11 @@ export const useFetch = (url) => {
   useEffect(() => {
     const getData = async (url) => {
       try {
-        let res = await fetch(url);
+        let res = await fetch(url, {
+          headers: {
+            "Access-Control-Allow-Origin": "*",
+          },
+        });
 
         if (!res.ok) {
           throw {
