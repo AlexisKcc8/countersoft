@@ -1,0 +1,76 @@
+{
+  "counters": [
+    {
+      "nombre": "Adolfo",
+      "apellido": "Cauich",
+      "capacidad": "Media",
+      "id": "3aa35279-29b9-4fde-8271-408dc2954098"
+    },
+    {
+      "nombre": "Adrian",
+      "apellido": "Mendez",
+      "capacidad": "Alta",
+      "id": "1a7be3a7-6129-4214-a992-2b30bf16ef08"
+    },
+    {
+      "nombre": "Alan",
+      "apellido": "Ruiz",
+      "capacidad": "Media",
+      "id": "8c38f5d6-8ff7-4453-8def-bb1608035d18"
+    },
+    {
+      "nombre": "Denzel",
+      "apellido": "Huchim",
+      "capacidad": "Media",
+      "id": "3d4a0a15-33a1-44d6-ae7b-9790617409c7"
+    },
+    {
+      "nombre": "Enrique",
+      "apellido": "Huchim",
+      "capacidad": "Alta",
+      "id": "b5ca4646-6f30-4aa6-9d08-dfc7ead0e117"
+    },
+    {
+      "nombre": "Eduardo",
+      "apellido": "Cab",
+      "capacidad": "Alta",
+      "id": "f3398a32-8601-4ff7-9995-0c553442a7aa"
+    },
+    {
+      "nombre": "Ricardo",
+      "apellido": "Ruiz",
+      "capacidad": "Media",
+      "id": "b0363392-dbde-4b73-8326-f3ea7c32dc0d"
+    },
+    {
+      "nombre": "Angel",
+      "apellido": "Velasco",
+      "capacidad": "Media",
+      "id": "158872c8-d2eb-482f-a45a-6be17a11a276"
+    },
+    {
+      "nombre": "Rodrigo",
+      "apellido": "Rejon",
+      "capacidad": "Media",
+      "id": "1a45eaa1-f1aa-4f5e-bbb0-a787ba462008"
+    },
+    {
+      "nombre": "Angel",
+      "apellido": "Ramirez",
+      "capacidad": "Baja",
+      "id": "85ea551b-3587-4346-beac-dde69d587274"
+    },
+    {
+      "nombre": "Adrian",
+      "apellido": "Gongora",
+      "capacidad": "Baja",
+      "id": "b5749a8f-d414-42fd-93e3-0c95af72e7b1"
+    },
+    {
+      "nombre": "Ronny",
+      "apellido": "Ku",
+      "capacidad": "Alta",
+      "id": "9ae43fef-28d5-463a-93fd-7eb21047fb95"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+.card-location {
+  background-color: #ffffffbb;
+  color: #000;
+  min-width: 15rem;
+  height: 12rem;
+  max-height: 12.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-around;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.card-location__body {
+  margin: 0;
+}
+.card-location__texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  margin: 0.5em 0;
+}
+.card-location__text {
+  margin: 0 0.8rem;
+}
+.card-location__btn-add-location {
+  padding: 0.4em;
+  border-radius: 10px;
+  background-color: #3b3bf7aa;
+  margin: 0.5rem 0 0 0;
+  color: #f0f8ff;
+}
+.card-location__btn-add-location:hover {
+  background-color: #0505ff;
+  color: #f0f8ff;
+  cursor: pointer;
+}

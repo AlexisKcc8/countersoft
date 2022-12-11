@@ -23,3 +23,17 @@
 
   overflow: hidden;
 }
+.container-location-allocation__section-search-location {
+  text-align: center;
+}
+.container-location-allocation__section-locations-modal {
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  overflow-y: scroll;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+   */
+}

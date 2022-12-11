@@ -1,0 +1,144 @@
+{
+  "locations": [
+    {
+      "location": "OO.17.C",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 6,
+      "id": "024dfd02-667a-4dc4-a070-6892b28c6204"
+    },
+    {
+      "location": "PP.12.B",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 4,
+      "id": "dc2d9fa5-259d-481a-9dea-4ebe37113423"
+    },
+    {
+      "location": "MM.12.B",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "89",
+      "NumberStylesLocation": 4,
+      "id": "595b3ddc-4491-40e2-a5e8-3e27d9ab580b"
+    },
+    {
+      "location": "RR.12.C",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "30",
+      "NumberStylesLocation": 8,
+      "id": "04c13c8d-aa7a-406a-9752-7f206b8a3e1e"
+    },
+    {
+      "location": "KK.17.A",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "120",
+      "NumberStylesLocation": 7,
+      "id": "005aba8b-8c2e-4a02-9f92-27dcc17b254c"
+    },
+    {
+      "location": "KK.24.B",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "129",
+      "NumberStylesLocation": 8,
+      "id": "28f24eca-ef4e-473f-9370-19d30ae5fbc7"
+    },
+    {
+      "location": "FF.17.A",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "93",
+      "NumberStylesLocation": 3,
+      "id": "a2bc5a95-1dc0-4da0-a63b-87a465fd2693"
+    },
+    {
+      "location": "HH.23.D",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "123",
+      "NumberStylesLocation": 5,
+      "id": "e68beda2-736d-4c8e-8f27-c1870f2bbd45"
+    },
+    {
+      "location": "II.22.C",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "43",
+      "NumberStylesLocation": 2,
+      "id": "7cae532e-2620-4890-8dc0-7b983a8a9ea2"
+    },
+    {
+      "location": "II.12.D",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "58",
+      "NumberStylesLocation": 3,
+      "id": "e078ea14-7109-4c4e-8152-d8ae8a0ce91f"
+    },
+    {
+      "location": "JJ.19.A",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "33",
+      "NumberStylesLocation": 2,
+      "id": "bf649690-c50a-4383-96df-40db2f2c4fca"
+    },
+    {
+      "location": "JJ.18.C",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "33",
+      "NumberStylesLocation": 2,
+      "id": "b89b324c-7ee4-45ef-9c0e-8bb1171e33a9"
+    },
+    {
+      "location": "PP.25.D",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "33",
+      "NumberStylesLocation": 2,
+      "id": "1b46b85e-e309-40cd-909b-5e22945f6f21"
+    },
+    {
+      "location": "JJ.39.A",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "133",
+      "NumberStylesLocation": 12,
+      "id": "d6f5e6e6-4769-4eed-8b45-d69a6baa58ee"
+    },
+    {
+      "location": "OO.16.A",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "63",
+      "NumberStylesLocation": 5,
+      "id": "825d5441-5927-447a-8734-25a97020105b"
+    },
+    {
+      "location": "EE.39.D",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "83",
+      "NumberStylesLocation": 4,
+      "id": "3a4f5cf6-6a66-467c-bad7-d98fcef4819f"
+    },
+    {
+      "location": "JJ.45.C",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "53",
+      "NumberStylesLocation": 7,
+      "id": "2448ebd8-ea96-4a07-8e5e-d4bf99750af5"
+    },
+    {
+      "location": "EE.17.C",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "83",
+      "NumberStylesLocation": 6,
+      "id": "76ac1aeb-91c7-4f02-b933-5f50cc2118ef"
+    },
+    {
+      "location": "DD.14.C",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "23",
+      "NumberStylesLocation": 2,
+      "id": "6bcdbcbe-82a4-44b8-90e3-8887a8277b19"
+    },
+    {
+      "location": "CC.19.C",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "93",
+      "NumberStylesLocation": 7,
+      "id": "37a434d0-f4dd-4532-81d7-53edc0eb3856"
+    }
+  ]
+}

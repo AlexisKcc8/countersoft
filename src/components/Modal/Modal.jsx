@@ -1,7 +1,8 @@
 import React from "react";
+import { Children } from "react";
 import "./styleModal.css";
 export const Modal = (props) => {
-  const { isOpen, closeModal } = props;
+  const { isOpen, closeModal, title, children } = props;
   const handleCloseModal = (e) => e.stopPropagation();
   return (
     <section
@@ -9,21 +10,16 @@ export const Modal = (props) => {
       onClick={closeModal}
     >
       <article className="modal__container-content" onClick={handleCloseModal}>
+        <button
+          className="modal__container-content-btn-close"
+          onClick={closeModal}
+        >
+          ❎
+        </button>
         <section className="modal__container-content-header">
-          <h2>Locaciones para Victor Puc</h2>
-          <button
-            className="modal__container-content-header-btn-close"
-            onClick={closeModal}
-          >
-            ❎
-          </button>
+          <h2 className="modal__container-content-header-title">{title}</h2>
         </section>
-        <section className="modal__container-content-body">
-          <h3>body del modal</h3>
-        </section>
-        <section className="modal__container-content-footer">
-          <h3>footer del modal</h3>
-        </section>
+        <section className="modal__container-content-body">{children}</section>
       </article>
     </section>
   );

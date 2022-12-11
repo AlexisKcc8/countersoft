@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "fake-api": "json-server --watch src/databases/db.json --port 5000",
-    "run-lowDb": "nodemon backend/src/index.js --ignore db.json"
+    "run-lowDb": "nodemon backend/src/index.js --ignore database/db-assigned-locations.json --ignore database/db-counters.json --ignore database/db-locations.json"
   },
   "dependencies": {
     "cors": "2.8.5",

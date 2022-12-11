@@ -1,14 +1,16 @@
-import { getConnection } from "../database.js";
+import { getConnectionToDbAssignedLocations } from "../database.js";
 import { v4 } from "uuid";
 
 export const getAssignedLocations = (req, res) => {
-  const assignedLocations = getConnection().data.assignedLocations;
+  const assignedLocations =
+    getConnectionToDbAssignedLocations().data.assignedLocations;
   res.json(assignedLocations);
 };
 export const getAssignedLocation = (req, res) => {
-  const assignedLocation = getConnection().data.assignedLocations.find(
-    (t) => t.id === req.params.id
-  );
+  const assignedLocation =
+    getConnectionToDbAssignedLocations().data.assignedLocations.find(
+      (t) => t.id === req.params.id
+    );
   if (!assignedLocation) res.sendStatus(404);
   res.json(assignedLocation);
 };
@@ -18,7 +20,7 @@ export const createAssignedLocations = async (req, res) => {
     ...req.body,
   };
   try {
-    const db = getConnection();
+    const db = getConnectionToDbAssignedLocations();
     db.data.assignedLocations.push(newAssignedLocation);
     await db.write();
 
@@ -31,7 +33,7 @@ export const updateAssignedLocation = async (req, res) => {
   const { inCounting, textInCounting, assignedCounter } = req.body;
 
   try {
-    const db = getConnection();
+    const db = getConnectionToDbAssignedLocations();
     const assignedFound = db.data.assignedLocations.find(
       (t) => t.id === req.params.id
     );
@@ -53,7 +55,7 @@ export const updateAssignedLocation = async (req, res) => {
   }
 };
 export const deleteAssignedLocation = async (req, res) => {
-  const db = getConnection();
+  const db = getConnectionToDbAssignedLocations();
   const assignedFound = db.data.assignedLocations.find(
     (t) => t.id === req.params.id
   );
@@ -69,6 +71,7 @@ export const deleteAssignedLocation = async (req, res) => {
   return res.json(assignedFound);
 };
 export const count = (req, res) => {
-  const totalAssigned = getConnection().data.assignedLocations.length;
+  const totalAssigned =
+    getConnectionToDbAssignedLocations().data.assignedLocations.length;
   res.json(totalAssigned);
 };

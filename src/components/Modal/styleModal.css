@@ -24,6 +24,7 @@
   transition: top 0.3s ease-in;
 }
 .modal__container-content {
+  position: relative;
   width: 90%;
   height: 90%;
   display: flex;
@@ -38,10 +39,23 @@
 }
 .modal__container-content-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+}
+.modal__container-content-header-title {
   color: #ffff00;
+  font-size: 2rem;
 }
 .modal__container-content-body {
   flex-grow: 1;
+  overflow: hidden;
+}
+.modal__container-content-btn-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
 }

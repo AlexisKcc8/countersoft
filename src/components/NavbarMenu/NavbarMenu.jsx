@@ -11,8 +11,8 @@ export const NavbarMenu = () => {
         <ul className="container-nabvar__list">
           <li className="container-nabvar__item">
             <ItemNavLink
-              className="container-nabvar__link "
               to="/asignacion-locaciones"
+              className="container-nabvar__link"
             >
               Asignación de <br /> locaciones
             </ItemNavLink>

@@ -1,0 +1,24 @@
+{
+  "assignedLocations": [
+    {
+      "id": "b7a61b5f-08b1-4a3a-856b-c5d805c38e5c",
+      "location": "OO.17.C",
+      "warehouse": "Bécal",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
+      "assignedCounter": "Victor Puc",
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 6
+    },
+    {
+      "id": "0c29f856-67f7-451f-9b01-e3080884a675",
+      "location": "PP.12.B",
+      "warehouse": "Bécal",
+      "inCounting": true,
+      "textInCounting": "En Conteo",
+      "assignedCounter": "Sebastian Cauich",
+      "NumberOfRolls": "99",
+      "NumberStylesLocation": 4
+    }
+  ]
+}
