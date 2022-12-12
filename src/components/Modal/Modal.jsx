@@ -2,14 +2,16 @@ import React from "react";
 import { Children } from "react";
 import "./styleModal.css";
 export const Modal = (props) => {
-  const { isOpen, closeModal, title, children } = props;
-  const handleCloseModal = (e) => e.stopPropagation();
+  const { isOpen, closeModal, title, children, handlePropagationModal } = props;
   return (
     <section
       className={`modal ${isOpen && "modal--is-open"}`}
       onClick={closeModal}
     >
-      <article className="modal__container-content" onClick={handleCloseModal}>
+      <article
+        className="modal__container-content"
+        onClick={handlePropagationModal}
+      >
         <button
           className="modal__container-content-btn-close"
           onClick={closeModal}

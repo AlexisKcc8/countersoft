@@ -2,10 +2,8 @@ import { useState } from "react";
 
 export const useModal = (initialValue = false) => {
   const [isOpen, setIsOpen] = useState(initialValue);
-  const openModal = () => {
-    setIsOpen(true);
-  };
+  const openModal = () => setIsOpen(true);
   const closeModal = () => setIsOpen(false);
-
-  return [isOpen, openModal, closeModal];
+  const handlePropagationModal = (e) => e.stopPropagation();
+  return [isOpen, openModal, closeModal, handlePropagationModal];
 };

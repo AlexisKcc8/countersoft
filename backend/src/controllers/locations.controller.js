@@ -24,3 +24,14 @@ export const addLocations = async (req, res) => {
     return res.status(500).send(error);
   }
 };
+
+export const deleteLocation = async (req, res) => {
+  const db = getConnectionToDbLocations();
+  const locationFound = db.data.locations.find((t) => t.id === req.params.id);
+  if (!locationFound) res.sendStatus(404);
+  console.log(locationFound);
+  const newTasks = db.data.locations.filter((t) => t.id !== req.params.id);
+  db.data.locations = newTasks;
+  await db.write();
+  return res.json({ message: "location deleting succesfuly" });
+};

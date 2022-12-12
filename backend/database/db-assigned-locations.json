@@ -1,24 +1,40 @@
 {
   "assignedLocations": [
     {
-      "id": "b7a61b5f-08b1-4a3a-856b-c5d805c38e5c",
-      "location": "OO.17.C",
+      "id": "28f24eca-ef4e-473f-9370-19d30ae5fbc7",
+      "inCounting": false,
+      "assignedCounter": "Angel Velasco",
+      "location": "KK.24.B",
       "warehouse": "Bécal",
-      "inCounting": true,
-      "textInCounting": "En Conteo",
-      "assignedCounter": "Victor Puc",
-      "NumberOfRolls": "99",
-      "NumberStylesLocation": 6
+      "NumberOfRolls": "129",
+      "NumberStylesLocation": 8
     },
     {
-      "id": "0c29f856-67f7-451f-9b01-e3080884a675",
-      "location": "PP.12.B",
-      "warehouse": "Bécal",
+      "id": "a2bc5a95-1dc0-4da0-a63b-87a465fd2693",
       "inCounting": true,
-      "textInCounting": "En Conteo",
-      "assignedCounter": "Sebastian Cauich",
-      "NumberOfRolls": "99",
-      "NumberStylesLocation": 4
+      "assignedCounter": "Ronny Ku",
+      "location": "FF.17.A",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "93",
+      "NumberStylesLocation": 3
+    },
+    {
+      "id": "6bcdbcbe-82a4-44b8-90e3-8887a8277b19",
+      "inCounting": true,
+      "assignedCounter": "Ronny Ku",
+      "location": "DD.14.C",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "23",
+      "NumberStylesLocation": 2
+    },
+    {
+      "id": "76ac1aeb-91c7-4f02-b933-5f50cc2118ef",
+      "inCounting": true,
+      "assignedCounter": "Adrian Mendez",
+      "location": "EE.17.C",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "83",
+      "NumberStylesLocation": 6
     }
   ]
 }

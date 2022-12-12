@@ -1,0 +1,41 @@
+.container-item-counter {
+  width: 15rem;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c8f1fed3;
+  border-radius: 0.6rem;
+  padding: 0.5em 0;
+}
+.container-item-counter__circle-avatar {
+  width: 1rem;
+  height: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #c8f1fe;
+  border-radius: 50%;
+  color: #0000ff;
+  font-weight: bold;
+  text-align: center;
+}
+.container-item-counter__name-counter {
+  color: #000000;
+}
+.container-item-counter__btn-asignar {
+  border: none;
+  border-radius: 15px;
+  margin: 0.5em 1em;
+  padding: 1em;
+  background-color: #3b3bf7aa;
+  color: #f0f8ff;
+  font-weight: bold;
+}
+.container-item-counter__btn-asignar:hover {
+  background-color: #0505ff;
+  color: #f0f8ff;
+  cursor: pointer;
+}

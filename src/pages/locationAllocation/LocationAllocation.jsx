@@ -1,5 +1,4 @@
 import React from "react";
-import { ButtonsPagination } from "../../components/ButtonsPagination/ButtonsPagination";
 import { CounterCard } from "../../components/CounterCard/CounterCard";
 import { CardLocation } from "../../components/CardLocation/CardLocation";
 import { Modal } from "../../components/Modal/Modal";
@@ -8,10 +7,14 @@ import { logicLocationAllocation } from "./logicLocationAllocation";
 import { useModal } from "../../hooks/useModal";
 import "./styleLocationAllocation.css";
 export const LocationAllocation = () => {
-  const { counters, locations, setCounter, counter } =
+  const { counters, locations, setCounter, counter, addAssignment } =
     logicLocationAllocation();
-  const [isOpenModalLocations, openModalLocation, closeModalLocation] =
-    useModal(false);
+  const [
+    isOpenModalLocations,
+    openModalLocation,
+    closeModalLocation,
+    handlePropagationModal,
+  ] = useModal(false);
   return (
     <section className="container-location-allocation">
       <article className="container-location-allocation__section-form-search">
@@ -27,20 +30,23 @@ export const LocationAllocation = () => {
           />
         ))}
       </article>
-      <article className="container-location-allocation__section-pagination">
-        <ButtonsPagination />
-      </article>
+
       <Modal
         isOpen={isOpenModalLocations}
         closeModal={closeModalLocation}
         title={`Locaciones para ${counter}`}
+        handlePropagationModal={handlePropagationModal}
       >
         <section className="container-location-allocation__section-search-location">
           <SearchForm myPlaceholder={"Locación a buscar"} />
         </section>
         <section className="container-location-allocation__section-locations-modal">
           {locations.map((location) => (
-            <CardLocation key={location.id} dataLocation={location} />
+            <CardLocation
+              key={location.id}
+              dataLocation={location}
+              addAssignment={addAssignment}
+            />
           ))}
         </section>
       </Modal>

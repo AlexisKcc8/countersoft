@@ -1,13 +1,17 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import { helpHttp } from "../../helpers/helpHttp";
+import { logicLocationTrakingPage } from "../locationTrackingPage/logicLocationTrakingPage";
 let urlCounters = "http://localhost:5000/counters";
 let urlLocations = "http://localhost:5000/locations";
+let urlAssignedLocations = "http://localhost:5000/assignedLocations";
 export const logicLocationAllocation = () => {
   const [counters, setCounters] = useState([]);
   const [locations, setLocations] = useState([]);
-  const [counter, setCounter] = useState("Kley");
+  const [counter, setCounter] = useState("");
   const [error, setError] = useState(null);
+  const { assignedLocations, setAssignedLocations } =
+    logicLocationTrakingPage();
   let api = helpHttp();
 
   useEffect(() => {
@@ -21,5 +25,43 @@ export const logicLocationAllocation = () => {
     getData();
   }, [urlCounters, urlLocations]);
 
-  return { counters, locations, setCounter, counter, error };
+  const addAssignment = (specificLocation) => {
+    let id = specificLocation.id;
+    const newAssignedLocation = {
+      inCounting: true,
+      assignedCounter: counter,
+      ...specificLocation,
+    };
+    let options = {
+      body: newAssignedLocation,
+      headers: { "content-type": "application/json" },
+    };
+    api.post(urlAssignedLocations, options).then((res) => {
+      if (!res.err) {
+        setAssignedLocations([...assignedLocations, res]);
+        alert("Locacion asignada con exito!!!");
+        let urlLocationWithId = `${urlLocations}/${id}`;
+        deleteAsignedLocation(urlLocationWithId, id);
+      } else {
+        setError(res);
+      }
+    });
+  };
+
+  const deleteAsignedLocation = (url, id) => {
+    let options = {
+      headers: { "content-type": "application/json" },
+    };
+
+    api.del(url, options).then((res) => {
+      if (!res.err) {
+        let newData = locations.filter((el) => el.id !== id);
+        setLocations(newData);
+      } else {
+        setError(res);
+      }
+    });
+  };
+
+  return { counters, locations, setCounter, counter, error, addAssignment };
 };

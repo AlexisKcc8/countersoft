@@ -1,7 +1,7 @@
 import React from "react";
 import "./styleCardLocation.css";
 export const CardLocation = (props) => {
-  const { dataLocation } = props;
+  const { dataLocation, addAssignment } = props;
   return (
     <section className="card-location">
       <div className="card-location__header">
@@ -16,7 +16,12 @@ export const CardLocation = (props) => {
             Rollos: {dataLocation.NumberOfRolls}
           </p>
         </div>
-        <button className="card-location__btn-add-location">
+        <button
+          className="card-location__btn-add-location"
+          onClick={() => {
+            addAssignment(dataLocation);
+          }}
+        >
           Asignar Locación
         </button>
       </div>

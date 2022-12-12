@@ -1,6 +1,12 @@
 import "./styleCardDetailLocation.css";
 export const CardDetailLocation = (props) => {
-  const { location, deleteAssigned } = props;
+  const {
+    location,
+    deleteAssigned,
+    openModal,
+    getSpecificLocation,
+    updateStatusCounting,
+  } = props;
   return (
     <section id={location.id} className="container-detail-location">
       <article className="container-detail-location__header">
@@ -24,10 +30,21 @@ export const CardDetailLocation = (props) => {
           </h2>
         </div>
         <div className="container-detail-location__body-container-btns-options">
-          <button className="container-detail-location__btn-option">
+          <button
+            className="container-detail-location__btn-option"
+            onClick={() => {
+              updateStatusCounting(location);
+            }}
+          >
             Finalizar Conteo
           </button>
-          <button className="container-detail-location__btn-option">
+          <button
+            className="container-detail-location__btn-option"
+            onClick={() => {
+              openModal();
+              getSpecificLocation(location);
+            }}
+          >
             Cambiar Contador
           </button>
           <button

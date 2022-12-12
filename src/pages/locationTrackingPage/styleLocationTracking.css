@@ -39,3 +39,13 @@
   overflow: scroll;
   scroll-behavior: smooth;
 }
+.container-tracking-location__section-modal-counters {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 1em 0;
+  overflow: auto;
+}
