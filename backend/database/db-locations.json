@@ -8,20 +8,6 @@
       "id": "04c13c8d-aa7a-406a-9752-7f206b8a3e1e"
     },
     {
-      "location": "KK.17.A",
-      "warehouse": "Bécal",
-      "NumberOfRolls": "120",
-      "NumberStylesLocation": 7,
-      "id": "005aba8b-8c2e-4a02-9f92-27dcc17b254c"
-    },
-    {
-      "location": "HH.23.D",
-      "warehouse": "Bécal",
-      "NumberOfRolls": "123",
-      "NumberStylesLocation": 5,
-      "id": "e68beda2-736d-4c8e-8f27-c1870f2bbd45"
-    },
-    {
       "location": "II.22.C",
       "warehouse": "Bécal",
       "NumberOfRolls": "43",

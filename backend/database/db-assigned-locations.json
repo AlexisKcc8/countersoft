@@ -12,7 +12,7 @@
     {
       "id": "a2bc5a95-1dc0-4da0-a63b-87a465fd2693",
       "inCounting": true,
-      "assignedCounter": "Ronny Ku",
+      "assignedCounter": "Adrian Mendez",
       "location": "FF.17.A",
       "warehouse": "Bécal",
       "NumberOfRolls": "93",
@@ -35,6 +35,24 @@
       "warehouse": "Bécal",
       "NumberOfRolls": "83",
       "NumberStylesLocation": 6
+    },
+    {
+      "id": "005aba8b-8c2e-4a02-9f92-27dcc17b254c",
+      "inCounting": true,
+      "assignedCounter": "Adolfo Cauich",
+      "location": "KK.17.A",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "120",
+      "NumberStylesLocation": 7
+    },
+    {
+      "id": "e68beda2-736d-4c8e-8f27-c1870f2bbd45",
+      "inCounting": true,
+      "assignedCounter": "Ricardo Ruiz",
+      "location": "HH.23.D",
+      "warehouse": "Bécal",
+      "NumberOfRolls": "123",
+      "NumberStylesLocation": 5
     }
   ]
 }

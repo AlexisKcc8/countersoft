@@ -39,7 +39,7 @@ export const logicLocationAllocation = () => {
     api.post(urlAssignedLocations, options).then((res) => {
       if (!res.err) {
         setAssignedLocations([...assignedLocations, res]);
-        alert("Locacion asignada con exito!!!");
+        alert(`Locacion ${specificLocation.location} asignada con exito!!!`);
         let urlLocationWithId = `${urlLocations}/${id}`;
         deleteAsignedLocation(urlLocationWithId, id);
       } else {
